@@ -181,7 +181,6 @@ ul {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  width: 101px;
   height: 52px;
   border: 1px solid transparent;
   text-align: center;
@@ -236,7 +235,7 @@ ul {
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
-    height: 45px;
+    height: 37px;
     margin: 5px 15px;
   }
 }
@@ -1914,7 +1913,6 @@ td{
   text-align: left;
   vertical-align:middle;
   font-weight: 300;
-  font-size: 16px;
   color: #000;
   border-bottom: solid 1px rgba(255,255,255,0.1);
 }
