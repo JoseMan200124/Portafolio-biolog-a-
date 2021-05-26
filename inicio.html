@@ -68,30 +68,30 @@
     margin-left: 40px;
 ">
       <li class="nav-item active">
-        <a class="nav-link" href="/inicio.html">Inicio</a>
+        <a class="nav-link magic-hover magic-hover__square" href="/inicio.html">Inicio</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item magic-hover magic-hover__square">
         <a class="nav-link" href="/transportesimple.html">Transporte celular</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item magic-hover magic-hover__square">
         <a class="nav-link" href="/organelosMembranosos.html">Organelos membranosos</a>
       </li>
-    <li class="nav-item">
+    <li class="nav-item magic-hover magic-hover__square">
         <a class="nav-link" href="/hojaInhi.html">Hoja de Inhibidores enzimáticos</a>
       </li>
-        <li class="nav-item">
+        <li class="nav-item magic-hover magic-hover__square">
         <a class="nav-link" href="/lecturas.html">Lecturas</a>
       </li>
-       <li class="nav-item">
+       <li class="nav-item magic-hover magic-hover__square">
         <a class="nav-link" href="/microscopia.html">Microscopia Electrónica</a>
       </li>
-          <li class="nav-item">
+          <li class="nav-item magic-hover magic-hover__square">
         <a class="nav-link" href="/casos.html">Casos Clínicos</a>
       </li>
-         <li class="nav-item">
+         <li class="nav-item magic-hover magic-hover__square">
         <a class="nav-link" href="/conclusiones.html">Conclusiones</a>
       </li>
-               <li class="nav-item">
+               <li class="nav-item magic-hover magic-hover__square">
         <a class="nav-link" href="/biblio.html">Bibliografía</a>
       </li>
             
@@ -128,7 +128,7 @@
     </div>
     
     
-    <div class="progress-wrap">
+    <div class="progress-wrap magic-hover magic-hover__square">
 		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
 			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
 		</svg>
@@ -1085,7 +1085,20 @@ body.light .progress-wrap svg.progress-circle path {
             margin-bottom: 0!important;
         }
     </style>
-    
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/pretify.js"></script>
+    <script src="js/magicmouse.js"></script>
+    <script>
+options = {
+  "cursorOuter": "circle-basic",
+  "hoverEffect": "pointer-blur",
+  "hoverItemMove": false,
+  "defaultCursor": false,
+  "outerWidth": 41,
+  "outerHeight": 41
+}; 
+ magicMouse(options);
+    </script>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
