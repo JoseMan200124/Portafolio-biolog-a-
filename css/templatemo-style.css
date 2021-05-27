@@ -2442,3 +2442,8 @@ body .magic-hover {
   transition: all 0.2s; }
   body .magic-hover:hover {
     cursor: none; }
+
+.desliza-abajo{
+    font-size: 2rem;
+    color: #000;
+}
